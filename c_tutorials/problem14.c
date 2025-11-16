@@ -48,7 +48,7 @@ int resultCalculator(int num){
     else if (num == 4){
         if (num2 == 0){
             printf("Invalid");
-            exit(0);
+            return 0;
         }
         else {
             result = num1 / num2;
@@ -57,7 +57,7 @@ int resultCalculator(int num){
     else if (num == 5){
         if (num2 == 0){
             printf("Invalid");
-            exit(0);
+            return 0;
         }
         else {
             result = num1 % num2;
