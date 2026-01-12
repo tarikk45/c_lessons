@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define SIZE 15 // It is the dimension of the square puzzle board(15 x 15)
+#define SIZE 15 // It is the dimension of the square puzzle board(15 x 15)str
 
 typedef struct{
     char word[30]; // It is the string value of the word
